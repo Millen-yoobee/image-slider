@@ -1,8 +1,10 @@
-body {
-; /*New company color*/
+main {
+	width: 980px;
+	margin: 0 auto;
 
-	/*This is a comment line in a css file.*/
-
-
-
+}
+#slider {
+	width: 320px;
+	height: 180px;
+	background-color: #333333;
 }
