@@ -46,5 +46,31 @@ slider.appendChild( next );
 //show the first image to the visitor
 slider.style.backgroundImage = "url("+ imageSources[0] +" )";
 
+//listen for clicks on the button
+next.onclick = changePicture;
+prev.onclick = changePicture;
+
+function changePicture() 
+	{
+		//which image is in use
+		var imageInUse = slider.style.backgroundImage;
+		
+		//extract the url		
+		var bits = imageInUse.split('"');
+		console.log(bits);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
